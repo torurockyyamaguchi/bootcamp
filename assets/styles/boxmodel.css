@@ -1,0 +1,127 @@
+/* reset declaration */
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: salmon;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    /* overflow: auto; */
+    /* overflow: scroll; */
+    overflow: hidden;
+    box-shadow: 3px 3px 5px gray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header h1{
+    background-color: greenyellow;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header a{
+    background-color: aqua;
+    width: 500px;
+    margin-left: 10px;
+    margin-bottom: 20px; /*no support */
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    
+}
+.nav{
+    background-color: teal;
+    margin: 30px 40px;
+    /* margin-bottom: -60px; */
+    margin-bottom: 60px;
+    padding: 20px 30px 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.nav img{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: yellow;
+    padding: 10px;
+
+}
+.section{
+    background-color: goldenrod;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container{
+    width: 60%;
+    height: 300px;
+    /* overflow: auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section div{
+    margin: 10px 0;
+
+}
+.solid{
+    border: 10px solid tomato;
+}
+.dotted{
+    border: 10px dotted teal;
+    border-color: red green;
+}
+.dashed{
+    border: 10px dashed crimson;
+    border-style: solid groove inset dotted;
+}
+.double{
+    border: 10px double seagreen;
+}
+.groove{
+    border: 10px groove salmon;
+}
+.ridge{
+    border: 10px ridge purple;
+}
+.inset{
+    border: 10px inset gray;
+}
+.outset{
+    border: 10px outset dodgerblue;
+}
+.radius{
+    border: 10px solid black;
+    border-radius: 20px 100px 150px 10px;
+}
+.circle{
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 20px;
+    /* box-sizing: content-box; */
+}
+.box-1{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* box-sizing: content-box; */
+}
+.box-2{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    /* box-sizing: content-box; */
+}

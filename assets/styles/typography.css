@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Shizuru&display=swap');
+/* 
+font-family: 'Lobster', cursive;
+font-family: 'Shizuru', cursive;
+*/
+h1 {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .5);
+    color: #ffff;
+    color: rgba(255, 255, 255, .8);
+    opacity: 0.9;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    /* text-shadow: x (horizontal) y (vertical) z color; */
+    text-shadow: 2px 2px 5px red;
+    /* letter-spacing: -10px; */
+    letter-spacing: 10px;
+}
+
+h2{
+    font-family: serif;
+    text-transform: lowercase;
+    text-decoration: overline;
+    text-align: right;
+}
+h3{
+    font-family: monospace;
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}
+.chapter-1{
+    text-align: center;
+}
+.chapter-1 .chapter{
+    text-align: left;
+}
+.chapter{
+    font-family:'Lobster', cursive ;
+    font-weight: 900;
+}
+.chapter-1 p{
+    font-family:'Shizuru', cursive ;
+    font-style: oblique;
+    text-transform: capitalize;
+    /* word-spacing: -20px; */
+    word-spacing: 20px;
+}
+.chapter-2{
+    font-size: 20px;
+}
+.chapter-2 p{
+    font-size: 16px;
+    font-family: san-serif;
+    font-weight: 700;
+}
+.chapter-2 a{
+    font-size: 200%;
+}
+.chapter-3{
+    font-size: 20px;
+}
+.chapter-3 p{
+    font-size: 1em;
+    font-family: san-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.chapter-3 p span{
+    font-weight: lighter;
+    font-style: normal;
+}

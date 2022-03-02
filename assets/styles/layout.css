@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+p,a{
+    font-family: serif;
+}
+.header{
+    border: 4px solid red;
+    padding: 20px;
+}
+.header h1{
+    border: 2px dashed green;
+    float: left;
+}
+.header .sns{
+    border: 2px dashed purple;
+    float: right;
+    margin-top: 16px;
+}   
+.header .sns a{
+    border: 1px solid red;
+    /* display: inline-block; */
+    display: block;
+    width: 100px;
+}
+.header p{
+    border: 2px dashed black;
+    clear: both;
+}
+.nav{
+    border: 4px solid red;
+    overflow: auto;
+    padding: 20px;
+}
+.nav img{
+    border: 2px dashed yellow;
+    float: left;
+    /* display: none; */
+}
+.nav ul{
+    border: 2px dashed black;
+    float: right;
+}
+.nav ul li{
+    border: 1px solid red;
+    display: inline;
+}
+.section{
+    border: 4px solid red;
+    overflow: auto;
+}
+.article{
+    border: 2px dashed blue;
+    height: 500px;
+    width: 70%;
+    float: left;
+}
+.static{
+    border: 2px solid yellow;
+    width: 80px;
+    height: 80px;
+    position: static;
+    left: 100px; /* no support*/        
+}
+.relative{
+    background-color: red;
+    border: 2px solid purple;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    z-index: 20;
+}
+.fixed{
+    background-color: green;
+    border: 2px solid green;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    z-index: 1;
+}
+.absolute{
+    background-color: blue;
+    border: 2px dashed blue;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    z-index: 21;
+}
+.relative-2{
+    background-color: gray;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.sidebar{
+    border: 2px dashed black;
+    height: 500px;
+    width: 30%;
+    float: left;
+}
+.footer{
+    border: 4px solid red;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Position Properties
+
+        value:
+            static
+            relative
+            fixed
+            absolute
+        
+        offset properties(movement)
+            left:0
+            top:0
+            right:
+            bottom:
+
+*/

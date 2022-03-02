@@ -1,0 +1,57 @@
+/* Universal Selector */
+*{
+    color: red;
+}
+/* Element Selector */
+h1{
+    background-color: aqua;
+}
+p{
+    background-color: gray;
+}
+
+/* Class Selector */
+
+.masa{
+    background-color: yellow;
+}
+
+.nozomi{
+    font-size: 40px;
+}
+
+/* ID Selector */
+#logo-name{
+    background-color: magenta;
+}
+
+/* and(,) Selector */
+ol,ul{
+    background-color: skyblue;
+}
+
+/* descendant(space) selector */
+p a{
+    background-color: salmon;
+}
+
+li ul,li ol{
+    background-color: hotpink;
+}
+/* hierararchy or specificity */
+
+
+.toru{
+    background-color: blue !important;
+}
+h2{
+    background-color: goldenrod;
+}
+
+#joe{
+    background-color: darkgreen;
+}
+
+h2{
+    background-color: black !important;
+}
